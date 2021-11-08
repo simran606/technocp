@@ -1,0 +1,635 @@
+@media (min-width: 576px) {
+    body{
+        background-color: #f0f0f0;
+        margin: 0 20px;
+        /* text-align: center; */
+    }
+    
+    .technocp-div{
+        z-index: 100;
+    }
+
+    .toggle-desktop{
+        display: none;
+    }
+    
+    input{
+        width: 42vw;
+        padding: 3px;
+        margin: 15px 0 0 0;
+    }
+    
+    .fa-search-btn{
+        border: none;
+        background-color: #fe610c;
+        padding: 4px;
+    }
+    .fa-search{
+        padding: 5px;
+        color: white;
+        /* margin: 15px 0 0 0; */
+    }
+    
+    .navbar{
+        padding: 10px;
+        z-index: 100;
+        width: 96vw;
+        background-color: #f0f0f0;
+        text-align: left;
+        justify-content: left;
+    }
+    
+    .navbar-brand{
+        margin: 0px 83px 0px 5px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #979797;
+    }
+
+    .navbar-toggler{
+        position: absolute;
+        right: 20px;
+        bottom: 26px;
+
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .orange-link{
+        background-color: #fe610c;
+        color: white;
+        padding: 10px;
+    }
+
+    .navbar-collapse{
+        background-color: white;
+        width: 25vw;
+
+    }
+    
+    .navbar-nav{
+        position: absolute;
+        right: 0;
+        top: 17px;
+        background-color: white;
+        width: 21vw;
+    }
+    
+    
+    /* .col-lg-1 {
+        width: 11.5%;
+        border: 1px solid grey; */
+    /* } */
+    
+    p{
+        margin-bottom: 0;
+    }
+    
+    .data-col p{
+        color: #979797;
+        font-size: 15px;
+    }
+
+    .img-screen{
+        background-color: #0e79bd;
+        z-index: 2;
+        position: relative;
+        /* margin-right: 20px; */
+        margin: 0 20px 0 0;
+    }
+    
+    .img-screen .col-lg-2 {
+        width: 19.666667%;
+        
+    }
+    
+    .img-1{
+        width: 230px;
+        display: inline;
+    }
+    
+    .img-2{
+        /* width: 200px; */
+        display: inline;
+        width: 154px;
+        height: 160px;
+        border-radius: 50%;
+        /* z-index: -1; */
+        border: 5px solid #0e79bd;
+        position: absolute;
+        bottom: -10px;
+    }
+    
+    .img-3{
+        width: 389px;
+        display: inline;
+        height: 139px;
+        position: absolute;
+        right: 0;
+        z-index: -2;
+    }
+    
+    .img-4{
+        width: 202px;
+        display: inline;
+        background-color: white;
+        padding: 10px 25px;
+        margin: 7px;
+        border-radius: 10px;
+        z-index: -2;
+    }
+    
+    .inline-div{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .line-p{
+        color: white;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .line-text {
+        color: white;
+        font-size: 15px;
+        margin-bottom: 10px;
+        width: 36vw;
+        position: absolute;
+        left: 222px;
+        bottom: 0px;
+    }
+    
+    .inline-div button{
+        background-color: white;
+        border-radius: 4px;
+        border: none;
+        font-size: 12px;
+    }
+    
+    
+    /* @media (min-width: 992px){ */
+    .col-lg-1 {
+        flex: 0 0 auto;
+        width: 11.5%;
+        border: 1px solid #d4d4d4; 
+        background-color: white;
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    /* @media (min-width: 992px) */
+    
+    /* } */
+    /* .col-text{
+        
+    } */
+    
+    .heading-text{
+        /* color: grey; */
+        background-color: white;
+        margin: 2px 2px 2px 11px;
+        padding: 10px 30px;
+        letter-spacing: 0;
+        z-index: 100;
+    }
+    
+    .search-div{
+        /* padding: 10px 30px; */
+        /* margin-left: 1px; */
+        padding-top: 15px;
+        padding-left: 5px;
+        background-color: white;
+        margin-top: 5px;
+    }
+    
+    .searchcontainer{
+        width: 15vw;
+        /* margin: 10px 25px; */
+    }
+    
+    .searchcontainer p{
+        margin-bottom: 10px;
+    }
+    
+    .datacontainer{
+        display: inline;
+        padding-left: 0;
+    }
+    
+    .data-row{
+        background-color: white;
+        padding: 10px;
+        margin: 5px;
+    
+    }
+    
+    .data-col{
+        position: relative;
+    }
+    
+    .loan-company-pic{
+        height: 146px;
+        width: 243px;
+        border-radius: 5px;
+    }
+    
+    .deal-btn{
+        color: white;
+        border: none;
+        border-radius: 5px;
+        background-color: #369631;
+        padding: 10px 15px;
+        margin-top: 45px;
+    }
+
+    .title{
+        font-size: 25px;
+    }
+    
+    .fa-thumbs-up{
+        color: white;
+        /* color: red; */
+        border: 3px solid white;
+        padding: 10px;
+        border-radius: 50%;
+        /* width: 20px; */
+        /* position: relative;
+        top: 55px;
+        right: 42px; */
+        position: absolute;
+        bottom: 50px;
+        right: 64px;
+    }
+    
+    .fa-chevron-right{
+        border-radius: 50%;
+        background-color: #028000;
+        padding: 7px;
+        margin-left: 15px;
+    }
+    
+    .rating{
+        color: white;
+        background-color: #028000;
+        width: 3vw;
+        text-align: center;
+    
+    }
+    
+    .below-text{
+        border-top: 2px solid #d4d4d4 ;
+        width: 75vw;
+        color: rgba(0,0,0,.55);
+        margin-top: 37px;
+        padding: 10px;
+    }
+    
+    .fa-star{
+        color: red;
+    }
+    
+    .below-text span{
+        font-weight: 700;
+    }
+    
+    .landingscreen h6{
+        text-align: center;
+        margin-top: 10px;
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width: 992px){
+        body{
+            background-color: #f0f0f0;
+            margin: 0 20px;
+            /* text-align: center; */
+        }
+        
+        .technocp-div{
+            z-index: 100;
+        }
+        
+        input{
+            width: 42vw;
+            padding: 3px;
+            margin: 15px 0 0 0;
+        }
+        
+        .fa-search-btn{
+            border: none;
+            background-color: #fe610c;
+            padding: 4px;
+        }
+        .fa-search{
+            padding: 5px;
+            color: white;
+            /* margin: 15px 0 0 0; */
+        }
+        
+        .navbar{
+            padding: 0;
+            z-index: 100;
+            width: 96vw;
+            background-color: #f0f0f0;
+        }
+        
+        .navbar-brand{
+            margin: 0px 10px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #979797;
+        }
+        
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding: 0 1rem;
+        }
+
+        .toggle-desktop{
+            display: block;
+        }
+        
+        .orange-link{
+            background-color: #fe610c;
+            color: white;
+            padding: 10px;
+        }
+        
+        .navbar-collapse{
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .navbar-nav{
+            background-color: transparent;
+            width: 30vw;
+        }
+        
+        
+        /* .col-lg-1 {
+            width: 11.5%;
+            border: 1px solid grey; */
+        /* } */
+        
+        p{
+            margin-bottom: 0;
+        }
+        
+        .img-screen{
+            background-color: #0e79bd;
+            z-index: 2;
+            position: relative;
+            /* margin-right: 20px; */
+            margin: 0 20px 0 0;
+        }
+        
+        .img-screen .col-lg-2 {
+            width: 19.666667%;
+            
+        }
+        
+        .img-1{
+            width: 230px;
+            display: inline;
+        }
+        
+        .img-2{
+            /* width: 200px; */
+            display: inline;
+            width: 304px;
+            height: 250px;
+            border-radius: 50%;
+            /* z-index: -1; */
+            border: 5px solid #0e79bd;
+            position: absolute;
+            bottom: -10px;
+        }
+        
+        .img-3{
+            width: 389px;
+            display: inline;
+            height: 139px;
+            position: absolute;
+            right: 0;
+            z-index: -2;
+        }
+        
+        .img-4{
+            width: 310px;
+            display: inline;
+            background-color: white;
+            padding: 10px 25px;
+            margin: 7px;
+            border-radius: 10px;
+            z-index: -2;
+        }
+        
+        .inline-div{
+            margin-top: 10px;
+            text-align: center;
+        }
+        
+        .line-p{
+            color: white;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        
+        .line-text {
+            color: white;
+            font-size: 19px;
+            margin-bottom: 10px;
+            width: 49vw;
+            position: absolute;
+            left: 222px;
+            bottom: 0px;
+        }
+        
+        .inline-div button{
+            background-color: white;
+            border-radius: 4px;
+            border: none;
+        }
+        
+        
+        /* @media (min-width: 992px){ */
+        .col-lg-1 {
+            flex: 0 0 auto;
+            width: 11.5%;
+            border: 1px solid #d4d4d4; 
+            background-color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        /* @media (min-width: 992px) */
+        
+        /* } */
+        /* .col-text{
+            
+        } */
+        
+        .data-col p{
+            color: #979797;
+        }
+        
+        .heading-text{
+            /* color: grey; */
+            background-color: white;
+            margin: 2px 2px 2px 11px;
+            padding: 10px 30px;
+            letter-spacing: 0;
+            z-index: 100;
+        }
+        
+        .search-div{
+            /* padding: 10px 30px; */
+            /* margin-left: 1px; */
+            padding-top: 15px;
+            padding-left: 40px;
+            background-color: white;
+            margin-top: 5px;
+        
+        }
+        
+        .searchcontainer{
+            width: 9vw;
+            /* margin: 10px 25px; */
+        }
+        
+        .searchcontainer p{
+            margin-bottom: 10px;
+        }
+        
+        .datacontainer{
+            display: inline;
+            padding-left: 0;
+        }
+        
+        .data-row{
+            background-color: white;
+            padding: 10px;
+            margin: 5px;
+        
+        }
+        
+        .data-col{
+            position: relative;
+        }
+        
+        .loan-company-pic{
+            height: 190px;
+            width: 340px;
+            border-radius: 5px;
+        }
+        
+        .deal-btn{
+            color: white;
+            border: none;
+            border-radius: 5px;
+            background-color: #369631;
+            padding: 10px 40px;
+            margin-top: 45px;
+        }
+        
+        .fa-thumbs-up{
+            color: white;
+            /* color: red; */
+            border: 3px solid white;
+            padding: 10px;
+            border-radius: 50%;
+            /* width: 20px; */
+            /* position: relative;
+            top: 55px;
+            right: 42px; */
+            position: absolute;
+            bottom: 50px;
+            right: 64px;
+        }
+        
+        .fa-chevron-right{
+            border-radius: 50%;
+            background-color: #028000;
+            padding: 7px;
+            margin-left: 30px;
+        }
+        
+        .rating{
+            color: white;
+            background-color: #028000;
+            width: 2vw;
+            text-align: center;
+        
+        }
+        
+        .below-text{
+            border-top: 2px solid #d4d4d4 ;
+            margin-top: 10px;
+            width: 78vw;
+            color: rgba(0,0,0,.55);
+        }
+        
+        .fa-star{
+            color: red;
+        }
+        
+        .below-text span{
+            font-weight: 700;
+        }
+        
+        .landingscreen h6{
+            text-align: center;
+            margin-top: 10px;
+        }
+        }
